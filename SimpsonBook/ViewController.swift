@@ -8,6 +8,14 @@
 
 import UIKit
 
+class SimpsonTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var lblDescription: UILabel!
+    
+}
+
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
@@ -42,8 +50,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell();
-        cell.textLabel?.text = simpsonList[indexPath.row].name;
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SimpsonCell", for: indexPath) as! SimpsonTableViewCell
+        
+        cell.img?.image = simpsonList[indexPath.row].image;
+        //let cell = UITableViewCell();
+        cell.name?.text = simpsonList[indexPath.row].name;
+        cell.lblDescription?.text = simpsonList[indexPath.row].description;
         return cell;
     }
     
