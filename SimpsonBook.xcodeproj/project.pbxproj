@@ -13,6 +13,8 @@
 		F48C8F72245F00AB00B91ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48C8F70245F00AB00B91ADC /* Main.storyboard */; };
 		F48C8F74245F00AD00B91ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48C8F73245F00AD00B91ADC /* Assets.xcassets */; };
 		F48C8F77245F00AD00B91ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48C8F75245F00AD00B91ADC /* LaunchScreen.storyboard */; };
+		F48C8F7F245F08B800B91ADC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48C8F7E245F08B800B91ADC /* DetailsViewController.swift */; };
+		F48C8F81245F244800B91ADC /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48C8F80245F244800B91ADC /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F48C8F73245F00AD00B91ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F48C8F76245F00AD00B91ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F48C8F78245F00AD00B91ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48C8F7E245F08B800B91ADC /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F48C8F80245F244800B91ADC /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				F48C8F6A245F00AB00B91ADC /* AppDelegate.swift */,
 				F48C8F6C245F00AB00B91ADC /* SceneDelegate.swift */,
 				F48C8F6E245F00AB00B91ADC /* ViewController.swift */,
+				F48C8F7E245F08B800B91ADC /* DetailsViewController.swift */,
 				F48C8F70245F00AB00B91ADC /* Main.storyboard */,
 				F48C8F73245F00AD00B91ADC /* Assets.xcassets */,
 				F48C8F75245F00AD00B91ADC /* LaunchScreen.storyboard */,
 				F48C8F78245F00AD00B91ADC /* Info.plist */,
+				F48C8F80245F244800B91ADC /* Simpson.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				F48C8F6F245F00AB00B91ADC /* ViewController.swift in Sources */,
 				F48C8F6B245F00AB00B91ADC /* AppDelegate.swift in Sources */,
 				F48C8F6D245F00AB00B91ADC /* SceneDelegate.swift in Sources */,
+				F48C8F7F245F08B800B91ADC /* DetailsViewController.swift in Sources */,
+				F48C8F81245F244800B91ADC /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
